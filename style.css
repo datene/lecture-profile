@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans');
+
+body {
+  margin: 0;
+  color: rgb(10, 10, 10);
+  font-family: 'Open Sans', 'Helvetica';
+  background-color: rgb(230,230,230);
+}
+
+
+h1, h2, h3 {
+  font-family: 'Montserrat', 'Helvetica'
+}
+
+h1 {
+  color: #ff5c5c;
+}
+
+h2, h3, a {
+  color: rgb(140,140,140);
+}
+
+a {
+  text-decoration: none;
+  transition: color 300ms ease;
+}
+
+a:hover {
+  color: #ff5c5c;
+}
+
+.card-white {
+  background-color: white;
+  margin: 20px auto;
+  width: 400px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 3px;
+  box-shadow: 2px 2px 8px rgba(1,1,1,0.1);
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.avatar-bordered {
+  border: 3px solid rgb(140,140,140);
+}
+
+.avatar-large {
+  width: 100px;
+}
+
+.avatar-small {
+  width: 50px;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+ul > li {
+  padding: 0 5px;
+  display: inline-block;
+}
+
+.btn {
+  color: white;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+.btn:hover {
+  color: white;
+}
+
+.btn-red {
+  background-color: #ff5c5c;
+}
+
+.btn-green {
+  background-color: green;
+}
+
+table img {
+  width: 100px;
+  margin: 0 10px;
+}
+
+table {
+  text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
